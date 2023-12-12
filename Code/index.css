@@ -446,6 +446,68 @@ body{
   }
 
 
+  #Testimonials-section{
+    margin-top: 100px;
+  }
+
+  #Testimonials-section-container01{
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  #Testimonials-section-container01 p{
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: rgb(244, 16, 4);
+  }
+
+  #Testimonials-section-container01 h1{
+    font-weight:900 ;
+  }
+
+
+ 
+  .swiper01 {
+    margin-top: 50px;
+    width: 43vw;
+  }
+
+  .swiper-slide01{
+    text-align: center;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .swiper-slide01 img{
+    margin-left: 15px;
+    width: 42vw;
+    margin-bottom: 30px;
+  }
+
+  
+  #Testimonials-img01{
+    margin-left: -5px;
+  }
+
+  #Testimonials-img02{
+    margin-left: 40px;
+  }
+
+
+  #Contact-section{
+    margin-top: 100px;
+  }
+
+  #Contact-main-container{
+    margin-top: 20px;
+  }
+
+
+
+
 
 
 

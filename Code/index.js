@@ -15,7 +15,8 @@ function myFunction() {
     // navbar.style.justifyContent = "end"
     navWithLogo.style.display = "block"
     navWithLogo.style.display = "flex"
-    navWithLogo.style.backgroundColor = "white"
+    navWithLogo.style.border = "1.5px solid rgb(240, 240, 240)"
+    navWithLogo.style.backgroundColor = "rgb(260, 260, 260)"
 
     
     

@@ -246,7 +246,7 @@ body{
     height: 100%;
     object-fit: cover;
   } */
-
+/* About us section style */
 
   #AboutUs-section{
     margin-top: 200px;
@@ -305,6 +305,8 @@ body{
     border: 2px solid red;
 
   }
+
+  /* Product section style */
 
   #Product-section{
     margin-top: 100px;
@@ -380,6 +382,70 @@ body{
   #Product-after-section-container01 img{
     width: 100vw;
   }
+
+  /* Teams section */
+
+  #Team-section{
+    margin-top: 100px;
+  }
+
+  #Team-section-container01{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  #Team-section-container01 p{
+    color: red;
+    font-weight: 900;
+    margin-bottom: 10px;
+  }
+
+  #Team-section-container01 h1{
+    font-size: x-large;
+    font-weight: 900;
+  }
+
+  #Team-section-container02{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  #Team-section-Subconatiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    /* border: 2px solid red; */
+    width: 250px;
+    gap: 20px;
+  }
+
+  #Team-section-Subconatiner img{
+    width: 150px;
+  }
+
+  #Team-section-Subconatiner div{
+    padding-left: 20px;
+  } 
+
+  #Team-section-Subconatiner div h2{
+    color: rgb(230, 96, 0);
+
+  }
+
+  #Team-section-Subconatiner div p{
+    color: rgb(255, 115, 0);
+
+  }
+
+  #Team-section-Subconatiner-para{
+    padding-left: 20px;
+    padding-bottom: 30px;
+  }
+
+
 
 
 

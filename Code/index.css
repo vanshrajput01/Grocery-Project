@@ -847,11 +847,41 @@ body{
   }
 
   #AboutUs-section-Subcontainer02{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 10px;
     width: 100%;
   }
 
-  /*  */
+  /* Product section style */
+
+  #Product-section-container02{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -20px;
+  }
+
+  #Product-section-container02-01{
+    margin-bottom: 30px;
+  }
+
+  #Product-after-section-container01 img{
+    width: 100%;
+    height:300px;
+  }
+
+  #Team-section-container02{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  
 
 
 

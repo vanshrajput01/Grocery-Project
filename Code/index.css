@@ -5,12 +5,20 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+html{
+  overflow-x: hidden;
+}
+
 body{
   width: 100vw;
   overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 
 
 }
+
+
 
  #header-first-container{
     margin-top: 20px;
@@ -178,6 +186,21 @@ body{
 #nav-with-logo-container02 ul li a:hover{
     color: orange;
 } 
+
+
+/* another style of nav bar with logo */
+
+.moblie-navbar-icon{
+  display: none;
+  width: 4rem;
+  height: 4rem;
+
+}
+
+
+.fa-xmark{
+  display: none;
+}
 
 
 .swiper {
@@ -634,9 +657,190 @@ body{
     font-weight: 800;
   }
 
+
+  /* ************************************************************************************************************************************************************************************************************************************************************************* */
   /* Moblie Responsive Style*/
+
+@media (max-width : 1024px){
+  #header-first-container{
+    display: none;
+  }
+
+  #NB{
+    display: none;
+  }
+
+  #nav-with-logo{
+    display: block;
+    /* position: fixed;
+    width: 100vw;
+    top: 0; */
+    z-index: 999;
+  }
+
+  /* #nav-with-logo #nav-with-logo-container02 ul{
+    display: none;
+  } */
+
+
+  /* nav bar with logo style for mobile */
+
+  #nav-with-logo{
+    padding-left: 0%;
+    position: relative;
+    /* background-color: #fff; */
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%;
+    background-color:  white;
+    z-index: 999;
+    display: flex;
+}
+
+/* #social-media-icons{
+    display: none;
+}
+ */
+
+ #nav-with-logo ul{
+    /* background-color: grey; */
+    margin-top: 100px; 
+    padding-left: 0px;
+    width: 100%;
+    height: 60vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: rgb(118, 222, 174); */
+   background-color: white;
+   color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-100%);
+    transition: all 0.5s linear;
+
+
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+/* #nav-bar-logo-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} */
+
+
+#nav-with-logo-container02 ul li a{
+    color: black;
+    font-weight: 500;
+}
+
+
+#nav-with-logo-container02 ul li a:hover{
+    color: black;
+}
+
+
+
+
+.active #nav-with-logo-container02 ul{
+    transform: translateY(0);
+    opacity: 1;
+
+    visibility: visible;
+    pointer-events: auto;
+
+}
+
+.active .mobile-navbar-btn .fa-xmark{
+    display: block;
+    font-size: 2rem;
+    margin-top: 40px;
+    color: black;
+    
+} 
+
+.active .mobile-navbar-btn .fa-bars{
+
+    display: none;
+}
+
+
+.fa-bars{
+    font-size: 2rem;
+    margin-top: 40px;
+    display: block;
+    z-index: 999;
+    color: black;
+    margin-left: 20px;
+}
+
+
+/* Main silder image */
+  #main-slider-section{
+    margin-top: 100px;
+    width: 100vw;
+    height: 60vh;
+  }
+
+  .m-slider-s {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .swiper-slide img {
+
+    height: 70vh;
+    width: 100%;
+
+  }
+
+
+  #silder-container02{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(255,0,0,0), rgba(255, 0, 0, 0.838));
+    position: absolute;
+    color: #fff;
+
+    
+  }
+
+  #silder-container02 h1{
+    font-weight: bolder;
+    font-size: 70px;
+  }
+
+
+
+
   
 
+
+
+
+}
 
 
 

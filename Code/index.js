@@ -1,5 +1,16 @@
 //nav bar
 
+const mobile_nav = document.querySelector('.mobile-navbar-btn')
+const navHeader = document.querySelector('.header');
+
+const toggleNavBar = () =>{
+
+  navHeader.classList.toggle("active")
+  
+};
+
+mobile_nav.addEventListener("click",()=> toggleNavBar());
+
 
 window.onscroll = function() {myFunction()};
 
@@ -29,6 +40,10 @@ function myFunction() {
 
   }
 }
+
+
+
+
 
 var swiper = new Swiper(".mySwiper", {
     spaceBetween: 30,

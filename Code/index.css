@@ -695,6 +695,7 @@ body{
     background-color:  white;
     z-index: 999;
     display: flex;
+    height: 13vh;
 }
 
 /* #social-media-icons{
@@ -704,7 +705,7 @@ body{
 
  #nav-with-logo ul{
     /* background-color: grey; */
-    margin-top: 100px; 
+    margin-top: 90px; 
     padding-left: 0px;
     width: 100%;
     height: 60vh;
@@ -881,7 +882,101 @@ body{
 
   }
 
+
+  /* testimonials  section*/
+
+  .swiper01 {
+    margin-top: 50px;
+    width: 100vw;
+    z-index: -1;
+  }
+
+  .swiper-slide01{
+    /* text-align: center; */
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   
+
+  }
+
+  .swiper-slide01 img{
+    margin-left: 15px;
+    width: 100vw;
+    margin-bottom: 30px;
+  }
+
+  
+  #Testimonials-img01{
+    margin-left: -5px;
+  }
+
+  #Testimonials-img02{
+    margin-left: 40px;
+  }
+
+  #Contact-main-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    
+  }
+
+  #Contact-subcontainer01{
+    width: 100%;
+  }
+
+  #Contact-subcontainer01 p{
+    width: 80%;
+  }
+
+  #Contact-subcontainer02{
+    
+    padding-left: 20px;
+    width: 100%;
+  }
+
+  
+  #Contact-subcontainer03{
+    
+    padding-left: 20px;
+    width: 100%;
+  }
+
+  
+  #Contact-subcontainer04{
+    
+    padding-left: 20px;
+    width: 100%;
+  }
+
+  .swiper-product {
+    width: 100vw;
+    height: 100%;
+  }
+
+  .swiper-product .swiper-slide {
+    margin-top: 10px;
+    text-align: center;
+    /* font-size: 18px; */
+    background: #fff;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+  }
+
+  .swiper-product .swiper-slide img {
+    width: 90%;
+    height: 270px;
+
+  }
+
+
+
+
+
 
 
 

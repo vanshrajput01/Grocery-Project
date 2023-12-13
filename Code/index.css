@@ -621,6 +621,22 @@ body{
 
   }
 
+  /* Footer section */
+  #footer-section{
+    margin-top: 100px;
+  }
+
+  #footer-section-container{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #eb9c0b;
+    font-weight: 800;
+  }
+
+  /* Moblie Responsive Style*/
+  
+
 
 
 

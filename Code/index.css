@@ -832,6 +832,27 @@ body{
     font-size: 70px;
   }
 
+  /* About us section */
+
+  #AboutUs-section-main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #AboutUs-section-Subcontainer01{
+    padding-left: 10px;
+    width: 90%;
+  }
+
+  #AboutUs-section-Subcontainer02{
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  /*  */
+
 
 
 
